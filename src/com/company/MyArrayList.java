@@ -206,7 +206,7 @@ public class MyArrayList<T> implements List<T>{
 
             @Override
             public void remove() {
-                MyArrayList.this.remove(index--);
+                MyArrayList.this.remove(--index);
                 modCount++;
             }
 
